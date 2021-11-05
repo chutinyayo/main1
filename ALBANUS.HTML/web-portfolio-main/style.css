@@ -1,0 +1,36 @@
+p{
+    color:red
+    
+}
+body{
+    background-image: url("foden.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rosybrown;
+ 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+nav a{
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    padding: 0.5em;
+    margin: 00.5em;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: all ease-out 1s;
+}
+.nav-link:hover{
+    background-color: black;
+    color: white;
+}
